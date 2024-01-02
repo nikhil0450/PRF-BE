@@ -138,7 +138,7 @@ app.post('/forgotpassword', async (req, res) => {
       },
     });
 
-    const resetLink = `https://localhost:8000/resetpassword?token=${resetToken}`;
+    const resetLink = `https://password-reset-flow-qp65.onrender.com/resetpassword?token=${resetToken}`;
     const mailOptions = {
       from: `"Nikhil" <${process.env.USER_EMAIL}>`,
       to: email,
