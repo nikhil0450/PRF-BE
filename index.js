@@ -24,7 +24,7 @@ const User = mongoose.model('User', userSchema);
 
 app.use(express.json());
 app.use(cors({
-  origin: ['http://localhost:3000', 'https://prf-b50.netlify.app'],
+  origin: ['http://localhost:3000', 'https://pass-reset-flow.netlify.app'],
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true,
 }));
